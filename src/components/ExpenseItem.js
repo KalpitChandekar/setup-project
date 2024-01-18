@@ -1,7 +1,7 @@
 import "./ExpenseItem.css";
 
 function ExpenseItem() {
-  const expenseDate = new Date();
+  const expenseDate = new Date(2023, 2, 13);
   const expenseTitle= "Bike Insurance";
   const expenseAmount = 50;
   return (
